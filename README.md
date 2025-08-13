@@ -1,6 +1,6 @@
-# Student Management System
+# Campuz - Student Management System
 
-A comprehensive web application built with Next.js, TypeScript, and Supabase for managing students, courses, attendance, and exams.
+A comprehensive web application built with Next.js, TypeScript, and Supabase for managing students, courses, attendance, and exams in educational institutions.
 
 ## Features
 
@@ -34,7 +34,7 @@ A comprehensive web application built with Next.js, TypeScript, and Supabase for
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd student-management-system
+cd campuz
 ```
 
 2. Install dependencies:
