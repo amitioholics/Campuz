@@ -15,7 +15,7 @@ export default async function Home() {
   }
 
   // Check if user is logged in
-  const supabase = createClient()
+  const supabase = await createClient()
   const {
     data: { user },
   } = await supabase.auth.getUser()
@@ -76,7 +76,7 @@ export default async function Home() {
               </div>
               <h3 className="text-2xl font-semibold font-display mb-4 text-white">Smart Roles</h3>
               <p className="text-gray-300 leading-relaxed">
-                Intelligent role-based dashboards that adapt to your needs, whether you're a student, faculty, or admin.
+                Intelligent role-based dashboards that adapt to your needs, whether you&apos;re a student, faculty, or admin.
               </p>
             </div>
 
